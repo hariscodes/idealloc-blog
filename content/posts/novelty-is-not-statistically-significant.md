@@ -210,14 +210,17 @@ amounted to the first thing that came to their head.
 LLMs mirror this behavior to a T, but unlike humans, they cannot be coached out of it. They can't deliver insight, because they aren't self-aware and
 have brutally limited contexts. They cannot question their own assumptions. They cannot stop to reconsider their position because they cannot stop
 vomiting statistically-significant tokens into API responses. Therefore, they are universally susceptible to the pitfalls of producing Bad Strategy.
-Similarly, because they are incapable of the creative exercise of producing insight, they cannot synthesize Good Strategy. This is why, if you train
-them on what "correctness" looks like (as the researchers I quoted previously did), they will struggle to distinguish it from "incorrectness" that is
-semantically similar.
+Similarly, because they are incapable of the logical and creative exercise of producing insight, they cannot synthesize Good Strategy.
+
+If you train them on what "correctness" looks like (as the researchers I quoted previously did), they will struggle to distinguish it from "incorrectness" that is
+semantically similar. This is known as "overfitting", and it's a classic problem that all model makers face when trying to improve their model's ability
+to perform a specific task. Even though different model stewards have attempted to solve this problem with techniques like balanced training or contrastive learning,
+LLMs still fail to process logic reliably.
 
 An LLM cannot tell you what to do because it has no risk tolerance. It can't stop you from choosing the wrong course of action because the world has too much
 context to fit into its window and it cannot intuit relevance. This should make sense, because an LLM is just a statistical model. Just as science is
 not run by the Church of The p-value, strategy - i.e., novelty - cannot be left to the machines. The model can't search for what we haven't shown it,
-and it can't create something that is unlike what we've already made.
+and it can't create something that is unlike what we've already made. It's a probabilistic machine operating in a universe governed by laws.
 
 There will be a wave of people who vehemently disagree with this, and will attempt to create or use "strategy agents". I recommend finding out which
 companies would have leadership so bankrupt of integrity that they would abdicate strategy work, then build businesses to crush them.
