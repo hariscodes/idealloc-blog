@@ -168,7 +168,7 @@ floating-point math, which LLMs are known to struggle with. Finally, the only qu
 tricky word problems contain several different, sometimes conflicting, peices of information that must be used to narrow the correct answer down.
 
 Let's take the tack that this is too hard for an LLM to solve without some hints. When I ask Gemini about the possibility of it being the four,
-slightly-worn Mickey Mantles instead, it correctly identifies that there are two responses and concludes:
+slightly-worn Mickey Mantles instead, it correctly identifies that it's a valid poissiblity (albeit while still ignoring the third) and concludes:
 
 > Without further information about which specific cards Michael was willing to part with or keep (e.g., prioritizing condition, character, etc.), we cannot definitively say whether he kept the 3 pristine Mantles or the 4 slightly-worn Mantles. Both are mathematically consistent with the total amount of money he received from the sale.
 
