@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>novelty is not statistically significant</title>
+      <link>http://localhost:1313/posts/novelty-is-not-statistically-significant/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/novelty-is-not-statistically-significant/</guid>
+      <description>&lt;p&gt;epidemiology
+strategy&lt;/p&gt;</description>
+      <content>&lt;p&gt;epidemiology
+strategy&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
