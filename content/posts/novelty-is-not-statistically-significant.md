@@ -201,7 +201,7 @@ Huh...why does that happen?
 
 In the last section of Richard Rumelt's book *Good Strategy/Bad Strategy*, he describes a scenario where he's requested a paragraph-long diagnosis on
 the woes of TiVo from some executives he's running a strategy retreat for. Each of them read the case the night before, and each of them had written
-something down regarding TiVos market position, competitors, production issues, etc. Instead of asking them about the substance of their positions,
+something down regarding TiVos market position, competitors, production issues, etc. Instead of asking them about the substance of their positions
 however, Dr. Rumelt instead asks them to describe how they arrived at their conclusions.
 
 Most of them are stumped. With some gentle proding, every person admits that (independent of the merits of their diagnosis) they wrote down what
