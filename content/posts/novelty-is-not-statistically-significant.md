@@ -207,11 +207,12 @@ however, Dr. Rumelt instead asks them to describe how they arrived at their hypo
 Most of them are stumped. With some gentle proding, every person admits that (independent of the merits of their diagnosis) they wrote down what
 amounted to the first thing that came to their head.
 
-LLMs mirror this behavior to a T, but unlike humans, they cannot be coached out of it. They don't deliver insight, because they aren't self-aware.
-They cannot question their own assumptions. They cannot stop to reconsider their position because they cannot stop vomiting statistically-significant
-tokens into API responses. Therefore, they are universally susceptible to the pitfalls of producing Bad Strategy, and incapable of producing the insight
-required to synthesize Good Strategy. This is why, if you train them on what "correctness" looks like (as the researchers I quoted previously did), they
-will struggle to distinguish it from "incorrectness" that is semantically similar.
+LLMs mirror this behavior to a T, but unlike humans, they cannot be coached out of it. They can't deliver insight, because they aren't self-aware and
+have brutally limited contexts. They cannot question their own assumptions. They cannot stop to reconsider their position because they cannot stop
+vomiting statistically-significant tokens into API responses. Therefore, they are universally susceptible to the pitfalls of producing Bad Strategy.
+Similarly, because they are incapable of the creative exercise of producing insight, they cannot synthesize Good Strategy. This is why, if you train
+them on what "correctness" looks like (as the researchers I quoted previously did), they will struggle to distinguish it from "incorrectness" that is
+semantically similar.
 
 An LLM cannot tell you what to do because it has no risk tolerance. It can't stop you from choosing the wrong course of action because the world has too much
 context to fit into its window and it cannot intuit relevance. This should make sense, because an LLM is just a statistical model. Just as science is
