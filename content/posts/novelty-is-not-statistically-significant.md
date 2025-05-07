@@ -186,7 +186,7 @@ ozone depletion in the process. All models were able to correctly reason about t
 
 The real problem is that an average, word-problem-loving middle schooler could answer this problem, even if they don't know who Mickey Mantle is,
 as long as they focus on value as a proxy for rarity. It's not even particularly novel or interesting. LLMs, however, seem to be pretty
-bad at solving them; an idea that is supported by the [current](https://aclanthology.org/2024.findings-acl.524.pdf) [literature](https://aclanthology.org/2024.findings-naacl.72.pdf)
+bad at solving word problems generally; an idea that is supported by the [current](https://aclanthology.org/2024.findings-acl.524.pdf) [literature](https://aclanthology.org/2024.findings-naacl.72.pdf)
 on the subject.
 
 One quote, in particular, stands out to me:
