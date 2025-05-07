@@ -54,9 +54,9 @@ the likelyhood that you'll hit several shots in a row is "high".
 Even if he was absolutely blazed out of his skull, this was so bizarrely backwards that my jaw hit the floor. I had to listen back
 to the clip several times to be sure I heard it correctly, then found the original conversation and listened to that to make sure
 it was not cut oddly for the short. When you study an observable phenomenon, the statistics cannot tell you if the thing exists or
-not. It can only tell you if its existence is anomalous at a specific resolution. The fact that that someone making 50% of their
-three-point shots would have 5 in a row is statistically insignificant cannot be used to conclude that the Hot Hand phenomenon
-isn't real; it just means that it can't be explained by that specific statistic.
+not. It can only tell you if its existence is anomalous at a specific resolution. The fact that someone making 50% of their
+three-point shots has a statistically insignificant relationship with number of shots made in a row cannot be used to conclude
+that the Hot Hand phenomenon isn't real; it just means that it can't be explained by that specific statistic.
 
 What happens when you look at it with regards to defensive matchups? Scheme? Specific dynamics between two players? Someone getting
 "hot" just means that something about their circustances is making them play above their average for some amount of time. Perhaps their
