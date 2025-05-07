@@ -43,8 +43,8 @@ a step, like evaluating your assumptions, that good peer reviewers will hone in 
 Sometimes I like to relive particular eras in MMA, so a few days ago I caught myself scrolling through a feed of Nate Diaz interviews
 (which are comedy gold, if you're curious). As you might imagine, it was inevitable that clips from Joe Rogan's podcast would start
 popping up in this feed as well. One of these clips was from his interview with Neil DeGrasse Tyson, where Joe opened with,
-"Do you think that it would be beneficial to teach probability and statistics to people?". Almost in spite of myself, I didn't scroll
-on.
+"Do you think that it would be beneficial to teach probability and statistics to people?". Almost in spite of myself, I stopped scrolling
+to watch.
 
 After letting out an excited noise of affirmation, Dr. Tyson went on to describe...something? An analysis? a study? I'm not sure what
 it was, but some sort of scientific exercise looking at the phenomenon of a "Hot Hand" in basketball. His assertion, or the assertion
