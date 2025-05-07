@@ -30,7 +30,7 @@ This is why AI will not replace engineering jobs.
 
 # wait, what?
 
-Inferential statistics (hereafter referred to simply as "statistics") are weird. They are a very human tool, in that the fact they
+Inferential statistics (hereafter referred to simply as "statistics") are weird. They are a very human tool, in that they
 are kind of magical when they are well-designed, but can be used in incredibly stupid ways. Even well-trained, well-intentioned people
 regularly misapply or misinterpret them. They can help you answer specific questions by quanitfying relationships between variables,
 but they aren't meaningful in isolation. Statistics must be interpreted in the context of the study in which they were measured.
