@@ -227,17 +227,18 @@ companies would have leadership so bankrupt of integrity that they would abdicat
 
 # AI, what is it good for?
 
-This is the third techonolgoical transition I've experienced during my career. The job title I had when I transitioned fully from data science to
+This is the third technological transition I've experienced during my career. The job title I had when I transitioned fully from data science to
 tech was "Database Administrator"; a job that is relegated to "legacy" tech, where it will be done by aging, increasingly expensive consultants
 until it fades from existence entirely. My dad was a COBOL programmer, who experienced the same thing at the tail end of his career. People even
-tried to accelerate software engineering with code generation tooling, refered to as CASE (computer assisted software engineering). The one my Dad used
-was called COOL:Gen, and even though it was deterministic, it feels like it was cut from the same cloth. A powerful but expensive and limited black box.
-It was great at code porting, but required extensive knowledge both of the target language and the COOL:Gen DSL. It never replaced programmmers.
+tried to accelerate software engineering with code generation tooling, refered to as CASE (computer assisted software engineering). The tool my Dad 
+used was called COOL:Gen, and even though it was deterministic, it feels like it was cut from the same cloth as modern LLM-based tools. A powerful 
+but expensive and limited black box. It was great at code porting, but required extensive knowledge both of the target language and the COOL:Gen DSL.
+Crucially, it never replaced programmmers.
 
-I think the new wave of LLM-based CASE tools are going to be incredible, and much mote flexible, but operate in fundamentally the same lane as software
+I think the new wave of LLM-based CASE tools are going to be incredible, and much more flexible, but operate in fundamentally the same lane as software
 like COOL:Gen. They're already getting really good at reducing toil. I regularly send deep research bots off to parse hundreds of web pages on my behalf. 
 We're not far off from having a bot take a decent stab at implementing a well-designed interface that you've alredy built. One of the things I'm most 
-excited for is reclaiming the part of my brain that knows Regex.
+excited for is reclaiming the part of my brain that knows Regex. I consider none of those essential to the value that I provide to the company I work for.
 
 I'm not even remotely scared that LLM agents are going to take engineering jobs, for the same reason that a mechanic shouldn't be afraid of losing their
 job because their employer purchases a software diagnostic tool. Good engineering is a creative endeavor where design is driven by
