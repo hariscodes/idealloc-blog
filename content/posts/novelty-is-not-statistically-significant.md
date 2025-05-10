@@ -6,7 +6,7 @@ hideComments: true
 
 Internet culture, and by extension modern popular culture, has developed a very strange relationship with science. There
 is simultaneously a stronger-than-ever desire for "rational thinking" and consensus-driven mental models, and a virulent,
-anti-intellctual impatience for things unknown. People want to just have the answers to things they believe that, given the pace
+anti-intellectual impatience for things unknown. People want to just have the answers to things they believe that, given the pace
 of human progress over the last 150 years, we should have.
 
 The myriad public and private school systems in the United States have their flaws, but I distinctly remember learning
@@ -32,7 +32,7 @@ This is why AI will not replace engineering jobs.
 
 Inferential statistics (hereafter referred to simply as "statistics") are weird. They are a very human tool, in that they
 are kind of magical when they are well-designed, but can be used in incredibly stupid ways. Even well-trained, well-intentioned people
-regularly misapply or misinterpret them. They can help you answer specific questions by quanitfying relationships between variables,
+regularly misapply or misinterpret them. They can help you answer specific questions by quantifying relationships between variables,
 but they aren't meaningful in isolation. Statistics must be interpreted in the context of the study in which they were measured.
 
 It's up to the scientist (and their consultants), to take statistical results of experiments and use them to disprove (or
@@ -59,20 +59,20 @@ correlation between percentage of three-point shots made and the number of conse
 that the Hot Hand phenomenon isn't real; it just means that it can't be explained by that specific statistic.
 
 What happens when you look at it with regards to defensive matchups? Scheme? Specific dynamics between two players? Someone getting
-"hot" just means that something about their circustances is making them play above their average for some amount of time. Perhaps their
+"hot" just means that something about their circumstances is making them play above their average for some amount of time. Perhaps their
 warm up was particularly effective today, and they play well until they get shoulder checked and some pain causes them to start missing.
-Alteratively, maybe they play well until a defensive adjustment is made to prevent a player from exploiting a weakness that they were using
+Alternatively, maybe they play well until a defensive adjustment is made to prevent a player from exploiting a weakness that they were using
 to score.
 
 The thing that's interesting is not using the statistics to determine if there's a fallacy or not, it's figuring out under what circumstances
 a Hot Hand can be reliably observed, or even manufactured. It could be impossible to figure that out because there are too many variables at play,
-but to simply dismiss the phenomenon because the some math says that it can't explain it is such an uninteresting and incurious position to take.
+but to simply dismiss the phenomenon because some math says that it can't explain it is such an uninteresting and incurious position to take.
 In other words, its unscientific.
 
 LLMs are fundamentally regurgitative. I don't just mean in the sense that the code they produce looks like vomit, but more that they are
 *by design* incapable of producing insight. They have no curiosity. Their worlds are static snapshots of human-produced training material.
 They cannot push against the established canon, because the canon dictates the boundaries of their knowlege base. To an LLM, Hot Hands are
-a fallacy until they aren't, or they aren't until they are. If you ask an LLM, it will just tell you that it's an ongoing debate and cite it's
+a fallacy until they aren't, or they aren't until they are. If you ask an LLM, it will just tell you that it's an ongoing debate and cite its
 sources. This is actually really useful behavior, but if it were up to an AI agent to continue research, our understanding of the topic would not
 have been meaningfully advanced past 1985. There's no desire to challege convention or revisit well-established principles. If you asked it what
 avenues should be explored next, it'll just parse ideas from the conclusions of the papers it downloaded and fire them at you. At the end of the
@@ -89,7 +89,7 @@ out that LLMs struggle to solve even simple ones consistently. Here's one I made
 > Michael has 3 pristine Mickey Mantles, 2 slightly worn Mark McGwires, 4 slightly worn Mickey Mantles, and a barely-recognizable Babe Ruth.
 > The base prices of Mickey Mantle cards are $200, Mark McGwire cards are $50, and Babe Ruth is $1000.
 > The condition of the cards modifies the price, where pristine is 100% value, slightly-worn is 75%, worn is 50%, very worn is 25%, and barely-recognizable is 5%.
-> After the deal, Michael takes the proceeds and buys an set of classic gaming consoles for $500 and 9 games for $22 each. He has $27 left. What cards does Michael still have?
+> After the deal, Michael takes the proceeds and buys a set of classic gaming consoles for $500 and 9 games for $22 each. He has $27 left. What cards does Michael still have?
 
 Every single model I tried got this wrong. What's illuminating is that they all got them wrong in *exactly the same way*. Let me share the output
 from Gemeni 2.5 Pro, Claude 3.7 Sonnet, and ChatGPT 4o (going to skip the math because they're all the same):
@@ -107,13 +107,13 @@ Claude:
 >Now I need to determine which combination of cards Michael sold to get exactly $600.
 >Looking at the possible combinations:
 >
->If Michael sold all 3 pristine Mickey Mantles: $600 ✓
+>If Michael sold all 4 slightly-worn Mickey Mantles: $600 ✓
 >
 >This matches exactly the $600 we calculated!
 >Therefore, Michael still has:
 >
 >2 slightly worn Mark McGwires ($37.50 each)
->4 slightly worn Mickey Mantles ($150 each)
+>3 pristine Mickey Mantles ($200 each)
 >1 barely-recognizable Babe Ruth ($50)
 
 ChatGPT:
