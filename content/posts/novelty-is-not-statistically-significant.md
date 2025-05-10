@@ -227,14 +227,30 @@ companies would have leadership so bankrupt of integrity that they would abdicat
 
 # AI, what is it good for?
 
-I think LLMs are going to get really good at reducing toil. In fact, I think we're pretty close already to my whole wish list. I regularly send deep
-research bots off to parse hundreds of web pages on my behalf. If you build a good interface, you can have an LLM take a decent stab at implementing
-it. One of the things I'm most excited for is reclaiming the part of my brain that knows Regex.
+This is the third techonolgoical transition I've experienced during my career. The job title I had when I transitioned fully from data science to
+tech was "Database Administrator"; a job that is relegated to "legacy" tech, where it will be done by aging, increasingly expensive consultants
+until it fades from existence entirely. My dad was a COBOL programmer, who experienced the same thing at the tail end of his career. People even
+tried to accelerate software engineering with code generation tooling, refered to as CASE (computer assisted software engineering). The one my Dad used
+was called COOL:Gen, and even though it was deterministic, it feels like it was cut from the same cloth. A powerful but expensive and limited black box.
+It was great at code porting, but required extensive knowledge both of the target language and the COOL:Gen DSL. It never replaced programmmers.
+
+I think the new wave of LLM-based CASE tools are going to be incredible, and much mote flexible, but operate in fundamentally the same lane as software
+like COOL:Gen. They're already getting really good at reducing toil. I regularly send deep research bots off to parse hundreds of web pages on my behalf. 
+We're not far off from having a bot take a decent stab at implementing a well-designed interface that you've alredy built. One of the things I'm most 
+excited for is reclaiming the part of my brain that knows Regex.
 
 I'm not even remotely scared that LLM agents are going to take engineering jobs, for the same reason that a mechanic shouldn't be afraid of losing their
 job because their employer purchases a software diagnostic tool. Good engineering is a creative endeavor where design is driven by
 context as much as it is a specific problem. It's about finding an elegant solution to the maze of constraints that you're presented with.
 In other words: engineering is more akin to strategy than computation.
+
+That's not to say that no jobs will be lost; tier 1 text-based support is most certainly going to be an anchronism, much like human calculators were. Other jobs
+where natural language processing is done by humans are ripe for automation. Software engineering jobs will simply change in scope and work, much like the DBAs
+and Webforms developers of yesteryear. CRUD applications will be commoditized, and in order to survive in the industry you'll need to pivot and upskill. However,
+just like software-defined networking didn't make the fundamentals of networking obselete, neither will probabilistically generated software render the fundamentals
+of engineering obselete.
+
+Besides, that sounds like a boring future to me anyway.
 
 We're better off leaning into the strengths of LLMs, than attempting to make them suck the joy out of our lives by automating the process of wonder,
 insight, and discovery. They can't do it to anything approaching an acceptable standard, and we risk letting our collecive intellectual muscles atrophy
