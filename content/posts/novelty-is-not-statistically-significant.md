@@ -162,7 +162,7 @@ is damaged, instead of more Mickey Mantles (most of which are slightly-worn). Th
 4 slightly-worn Mickey Mantles.
 
 You may be thinking that my question wasn't fair, but by word problem standards my example is very pedestrian. First of all, I did not include
-many other combinations of things that would add up to the remaining amount. Second, I layed the language of the problem out in really clean terms to make
+many other combinations of things that would add up to the remaining amount. Second, I laid the language of the problem out in really clean terms to make
 the required math easy to parse, which word problems often try to obfuscate to some degree. Third, I (mostly) stuck to nice, round whole numbers and avoided
 floating-point math, which LLMs are known to struggle with. Finally, the only qualitative context I added to the problem was the first line. Really
 tricky word problems contain several different, sometimes conflicting, peices of information that must be used to narrow the correct answer down.
