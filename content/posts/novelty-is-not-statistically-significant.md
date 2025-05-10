@@ -228,7 +228,7 @@ companies would have leadership so bankrupt of integrity that they would abdicat
 # AI, what is it good for?
 
 This is the third technological transition I've experienced during my career. The job title I had when I transitioned fully from data science to
-tech was "Database Administrator"; a job that is relegated to "legacy" tech, where it will be done by aging, increasingly expensive consultants
+engineering was "Database Administrator"; a job that is relegated to "legacy" tech, where it will be done by aging, increasingly expensive consultants
 until it fades from existence entirely. My dad was a COBOL programmer, who experienced the same thing at the tail end of his career. People even
 tried to accelerate software engineering with code generation tooling, refered to as CASE (computer assisted software engineering). The tool my Dad 
 used was called COOL:Gen, and even though it was deterministic, it feels like it was cut from the same cloth as modern LLM-based tools. A powerful 
