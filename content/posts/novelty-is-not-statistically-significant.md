@@ -184,9 +184,9 @@ them. In fact, even a cursory reading of the problem makes it clear that Michael
 collection. All the other models ran into the same pitfalls, including ChatGPT o3; although it had to run some more terrible python code to ensure maximum
 ozone depletion in the process. All models were able to correctly reason about the answer after I gave it to them, which is nice I guess.
 
-I reran all this prompt through all thse models tree times each, and all of them got the correct answer at least once. Which answer they selected,
+I reran all my prompt through all these models several times each, and all of them got the correct answer at least once. Which answer they selected
 seemed totally random; if you ran them repeatedly to find the correct answer based on a distribution of responses from each model, it still
-wouldn't have worked, and you probably would have burned a lot of tokens.
+wouldn't have worked, and if you were using their APIs you probably would have burned a lot of tokens.
 
 The fundamental issue, however, is that an average, word-problem-loving middle schooler could figure this out, even if they don't know who Mickey Mantle is,
 as long as they focus on value as a proxy for rarity. It's not even particularly novel or interesting. LLMs, however, seem to be pretty
