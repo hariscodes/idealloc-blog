@@ -188,7 +188,7 @@ I reran all this prompt through all thse models tree times each, and all of them
 seemed totally random; if you ran them repeatedly to find the correct answer based on a distribution of responses from each model, it still
 wouldn't have worked, and you probably would have burned a lot of tokens.
 
-The fundamental issue, however, is that an average, word-problem-loving middle schooler could answer this problem, even if they don't know who Mickey Mantle is,
+The fundamental issue, however, is that an average, word-problem-loving middle schooler could figure this out, even if they don't know who Mickey Mantle is,
 as long as they focus on value as a proxy for rarity. It's not even particularly novel or interesting. LLMs, however, seem to be pretty
 bad at solving word problems generally; an idea that is supported by the [current](https://aclanthology.org/2024.findings-acl.524.pdf) [literature](https://aclanthology.org/2024.findings-naacl.72.pdf)
 on the subject.
@@ -208,7 +208,7 @@ the woes of TiVo from some executives he's running a strategy retreat for. Each 
 something down regarding TiVos market position, competitors, production issues, etc. Instead of asking them about the substance of their positions
 however, Dr. Rumelt instead asks them to describe how they arrived at their hypotheses.
 
-Most of them are stumped. With some gentle proding, every person admits that (independent of the merits of their diagnosis) they wrote down what
+Most of them are stumped. With some gentle prodding, every person admits that (independent of the merits of their diagnosis) they wrote down what
 amounted to the first thing that came to their head.
 
 LLMs mirror this behavior to a T, but unlike humans, they cannot be coached out of it. They can't deliver insight, because they aren't self-aware and
@@ -249,7 +249,7 @@ job because their employer purchases a software diagnostic tool. Good engineerin
 context as much as it is a specific problem. It's about finding an elegant solution to the maze of constraints that you're presented with.
 In other words: engineering is more akin to strategy than computation.
 
-That's not to say that no jobs will be lost; tier 1 text-based support is most certainly going to be an anchronism, much like human calculators were. Other jobs
+That's not to say that no jobs will be lost; tier 1 text-based support is most certainly going to be an anachronism, much like human calculators were. Other jobs
 where natural language processing is done by humans are ripe for automation. Software engineering jobs will simply change in scope and work, much like the DBAs
 and Webforms developers of yesteryear. CRUD applications will be commoditized, and in order to survive in the industry you'll need to pivot and upskill. However,
 just like software-defined networking didn't make the fundamentals of networking obselete, neither will probabilistically generated software render the fundamentals
@@ -258,7 +258,7 @@ of engineering obselete.
 Besides, that sounds like a boring future to me anyway.
 
 We're better off leaning into the strengths of LLMs, than attempting to make them suck the joy out of our lives by automating the process of wonder,
-insight, and discovery. They can't do it to anything approaching an acceptable standard, and we risk letting our collecive intellectual muscles atrophy
+insight, and discovery. They can't do it to anything approaching an acceptable standard, and we risk letting our collective intellectual muscles atrophy
 in letting them try.
 
 Sometimes, the answer is that simple. Let the machines crunch the numbers, and let us have the fun.
