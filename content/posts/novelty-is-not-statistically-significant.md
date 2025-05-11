@@ -180,11 +180,15 @@ When I point out the qualitative statement at the beginning that should help it 
 > Michael still has the 3 pristine Mickey Mantles.
 
 Even leading the model by the nose to the answer, it can't figure it out. Michael clearly doesn't value ultra-rare cards if he's willing to part with
-them. In fact, even a cursory reading of the problem makes it clear that that Michael is shifting from baseball card collection to classic video game
+them. In fact, even a cursory reading of the problem makes it clear that Michael is shifting from baseball card collection to classic video game
 collection. All the other models ran into the same pitfalls, including ChatGPT o3; although it had to run some more terrible python code to ensure maximum
 ozone depletion in the process. All models were able to correctly reason about the answer after I gave it to them, which is nice I guess.
 
-The real problem is that an average, word-problem-loving middle schooler could answer this problem, even if they don't know who Mickey Mantle is,
+I reran all this prompt through all thse models tree times each, and all of them got the correct answer at least once. Which answer they selected,
+seemed totally random; if you ran them repeatedly to find the correct answer based on a distribution of responses from each model, it still
+wouldn't have worked, and you probably would have burned a lot of tokens.
+
+The fundamental issue, however, is that an average, word-problem-loving middle schooler could answer this problem, even if they don't know who Mickey Mantle is,
 as long as they focus on value as a proxy for rarity. It's not even particularly novel or interesting. LLMs, however, seem to be pretty
 bad at solving word problems generally; an idea that is supported by the [current](https://aclanthology.org/2024.findings-acl.524.pdf) [literature](https://aclanthology.org/2024.findings-naacl.72.pdf)
 on the subject.
