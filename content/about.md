@@ -12,8 +12,10 @@ Things I talk about:
 * Teaching, mentorship, and paying it forward
 * Screaming at the tides - random tirades against things I'm too dumb or old to understand
 
-I'm currently employed as a Staff SRE at [Immuta](https://immuta.com). We've done a lot of cool stuff. Here are some blogs I wrote there:
+I'm currently employed as a Staff SRE at [Immuta](https://immuta.com). We've done a lot of cool stuff. Here are some other blogs I wrote there:
 
 * Terraform Engineering
   * [Make your modules thread-safe](https://medium.com/immuta-engineering/terraform-engineering-strategies-part-1-make-your-modules-thread-safe-1a7fdf1c2a2c)  
   * [Terraform isn't real](https://medium.com/immuta-engineering/terraform-isnt-real-cloud-provider-apis-ownership-and-lifecycle-blocks-a911dea1daba)
+* Distributed Systems
+  * [Why is Multi-cloud Networking so Complicated?](https://www.immuta.com/blog/multi-cloud-networking/)
