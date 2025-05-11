@@ -227,8 +227,8 @@ of the logical and creative exercise of producing insight, they cannot synthesiz
 If you train them on what "correctness" looks like (as the researchers I quoted previously did), they will struggle to distinguish it from "incorrectness" that is
 semantically similar. This is known as "overfitting", and it's a classic problem that all model makers face when trying to improve their model's ability
 to perform a specific task. Even though different model stewards have attempted to solve this problem with techniques like balanced training or contrastive learning,
-LLMs still fail to process logic reliably. While they can mimic the surface-level patterns of correct solutions, they cannot navigate novel scenarios or identify
-critical qualitative nuances that weren't explicitly and overwhelmingly represented in their training.
+LLMs still fail to process logic reliably. While they can mimic the surface-level patterns of correct solutions, they cannot identify critical qualitative nuances
+that weren't explicitly and overwhelmingly represented in their training.
 
 An LLM cannot tell you what to do because it has no risk tolerance. It can't stop you from choosing the wrong course of action because the world has too much
 context to fit into its window and it cannot intuit relevance. This should make sense, because an LLM is just a statistical model. Just as science is
