@@ -30,6 +30,9 @@ This is why AI will not replace engineering jobs.
 
 # wait, what?
 
+The desire for easy answers and impatience with nuance extends to how we perceive complex tools, especially those that don't behave
+in a way which allows us to intuitively understand how they work. Let me give you an example.
+
 Inferential statistics (hereafter referred to simply as "statistics") are weird. They are a very human tool, in that they
 are kind of magical when they are well-designed, but can be used in incredibly stupid ways. Even well-trained, well-intentioned people
 regularly misapply or misinterpret them. They can help you answer specific questions by quantifying relationships between variables,
@@ -68,6 +71,9 @@ The thing that's interesting is not using the statistics to determine if there's
 a Hot Hand can be reliably observed, or even manufactured. It could be impossible to figure that out because there are too many variables at play,
 but to simply dismiss the phenomenon because some math says that it can't explain it is such an uninteresting and incurious position to take.
 In other words, its unscientific.
+
+This same trap of mistaking statistical correlation (or lack thereof) for understanding is one that so many keep falling into with Large Language
+Models (LLMs).
 
 LLMs are fundamentally regurgitative. I don't just mean in the sense that the code they produce looks like vomit, but more that they are
 *by design* incapable of producing insight. They have no curiosity. Their worlds are static snapshots of human-produced training material.
@@ -186,7 +192,8 @@ ozone depletion in the process. All models were able to correctly reason about t
 
 I reran all my prompt through all these models several times each, and all of them got the correct answer at least once. Which answer they selected
 seemed totally random; if you ran them repeatedly to find the correct answer based on a distribution of responses from each model, it still
-wouldn't have worked, and if you were using their APIs you probably would have burned a lot of tokens.
+wouldn't have worked, and if you were using their APIs you probably would have burned a lot of tokens. Every single time LLMs answer something correctly,
+it's important to understand that they have performed a mechanically-equivalent act to accidentally stumbling upon that answer.
 
 The fundamental issue, however, is that an average, word-problem-loving middle schooler could figure this out, even if they don't know who Mickey Mantle is,
 as long as they focus on value as a proxy for rarity. It's not even particularly novel or interesting. LLMs, however, seem to be pretty
@@ -212,14 +219,16 @@ Most of them are stumped. With some gentle prodding, every person admits that (i
 amounted to the first thing that came to their head.
 
 LLMs mirror this behavior to a T, but unlike humans, they cannot be coached out of it. They can't deliver insight, because they aren't self-aware and
-have brutally limited contexts. They cannot question their own assumptions. They cannot stop to reconsider their position because they cannot stop
-vomiting statistically-significant tokens into API responses. Therefore, they are universally susceptible to the pitfalls of producing Bad Strategy.
-Similarly, because they are incapable of the logical and creative exercise of producing insight, they cannot synthesize Good Strategy.
+have brutally limited contexts; they are confined to their training data and the immediate prompt, and lack embodied experience or situational awareness.
+They cannot question their own assumptions. They cannot stop to reconsider their position because they cannot stop vomiting statistically-significant
+tokens into API responses. Therefore, they are universally susceptible to the pitfalls of producing Bad Strategy. Similarly, because they are incapable
+of the logical and creative exercise of producing insight, they cannot synthesize Good Strategy.
 
 If you train them on what "correctness" looks like (as the researchers I quoted previously did), they will struggle to distinguish it from "incorrectness" that is
 semantically similar. This is known as "overfitting", and it's a classic problem that all model makers face when trying to improve their model's ability
 to perform a specific task. Even though different model stewards have attempted to solve this problem with techniques like balanced training or contrastive learning,
-LLMs still fail to process logic reliably.
+LLMs still fail to process logic reliably. While they can mimic the surface-level patterns of correct solutions, they cannot navigate novel scenarios or identify
+critical qualitative nuances that weren't explicitly and overwhelmingly represented in their training.
 
 An LLM cannot tell you what to do because it has no risk tolerance. It can't stop you from choosing the wrong course of action because the world has too much
 context to fit into its window and it cannot intuit relevance. This should make sense, because an LLM is just a statistical model. Just as science is
@@ -234,31 +243,29 @@ companies would have leadership so bankrupt of integrity that they would abdicat
 This is the third technological transition I've experienced during my career. The job title I had when I transitioned fully from data science to
 engineering was "Database Administrator"; a job that is relegated to "legacy" tech, where it will be done by aging, increasingly expensive consultants
 until it fades from existence entirely. My dad was a COBOL programmer, who experienced the same thing at the tail end of his career. People even
-tried to accelerate software engineering with code generation tooling, refered to as CASE (computer assisted software engineering). The tool my Dad 
-used was called COOL:Gen, and even though it was deterministic, it feels like it was cut from the same cloth as modern LLM-based tools. A powerful 
+tried to accelerate software engineering with code generation tooling, refered to as CASE (computer assisted software engineering). The tool my Dad
+used was called COOL:Gen, and even though it was deterministic, it feels like it was cut from the same cloth as modern LLM-based tools. A powerful
 but expensive and limited black box. It was great at code porting, but required extensive knowledge both of the target language and the COOL:Gen DSL.
 Crucially, it never replaced programmmers.
 
 I think the new wave of LLM-based CASE tools are going to be incredible, and much more flexible, but operate in fundamentally the same lane as software
-like COOL:Gen. They're already getting really good at reducing toil. I regularly send deep research bots off to parse hundreds of web pages on my behalf. 
-We're not far off from having a bot take a decent stab at implementing a well-designed interface that you've alredy built. One of the things I'm most 
-excited for is reclaiming the part of my brain that knows Regex. I consider none of those essential to the value that I provide to the company I work for.
+like COOL:Gen. They're already good at that type of work, and getting better every day. I regularly send deep research bots off to parse hundreds of web pages on my behalf.
+We're not far off from having a bot take a decent stab at implementing a well-designed interface that you've alredy built. One of the things I'm most
+excited for is reclaiming the part of my brain that knows Regex, since LLMs are so good at generating it.
 
-I'm not even remotely scared that LLM agents are going to take engineering jobs, for the same reason that a mechanic shouldn't be afraid of losing their
+I consider none of those tasks essential to the value that I provide to the company I work for.
+
+I'm not scared that LLM agents are going to take engineering jobs, for the same reason that a mechanic shouldn't be afraid of losing their
 job because their employer purchases a software diagnostic tool. Good engineering is a creative endeavor where design is driven by
 context as much as it is a specific problem. It's about finding an elegant solution to the maze of constraints that you're presented with.
 In other words: engineering is more akin to strategy than computation.
 
-That's not to say that no jobs will be lost; tier 1 text-based support is most certainly going to be an anachronism, much like human calculators were. Other jobs
+That's not to say that no jobs will dissapear; tier 1 text-based support is most certainly going to be an anachronism, much like human calculators were. Other jobs
 where natural language processing is done by humans are ripe for automation. Software engineering jobs will simply change in scope and work, much like the DBAs
 and Webforms developers of yesteryear. CRUD applications will be commoditized, and in order to survive in the industry you'll need to pivot and upskill. However,
 just like software-defined networking didn't make the fundamentals of networking obselete, neither will probabilistically generated software render the fundamentals
 of engineering obselete.
 
-Besides, that sounds like a boring future to me anyway.
-
 We're better off leaning into the strengths of LLMs, than attempting to make them suck the joy out of our lives by automating the process of wonder,
 insight, and discovery. They can't do it to anything approaching an acceptable standard, and we risk letting our collective intellectual muscles atrophy
 in letting them try.
-
-Sometimes, the answer is that simple. Let the machines crunch the numbers, and let us have the fun.
