@@ -193,7 +193,7 @@ ozone depletion in the process. All models were able to correctly reason about t
 I reran all my prompt through all these models several times each, and all of them got the correct answer at least once. Which answer they selected
 seemed totally random; if you ran them repeatedly to find the correct answer based on a distribution of responses from each model, it still
 wouldn't have worked, and if you were using their APIs you probably would have burned a lot of tokens. Every single time LLMs answer something correctly,
-it's important to understand that they have performed a mechanically-equivalent act to accidentally stumbling upon that answer.
+it's important to understand that they have performed a mechanically-equivalent act to responding with the first answer that looks right.
 
 The fundamental issue, however, is that an average, word-problem-loving middle schooler could figure this out, even if they don't know who Mickey Mantle is,
 as long as they focus on value as a proxy for rarity. It's not even particularly novel or interesting. LLMs, however, seem to be pretty
