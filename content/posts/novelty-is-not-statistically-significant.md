@@ -31,7 +31,7 @@ This is why AI will not replace engineering jobs.
 # wait, what?
 
 The desire for easy answers and impatience with nuance extends to how we perceive complex tools, especially those that don't behave
-in a way which allows us to intuitively understand how they work. Let me give you an example.
+in a way which allow us to intuitively understand how they work. Let me give you an example.
 
 Inferential statistics (hereafter referred to simply as "statistics") are weird. They are a very human tool, in that they
 are kind of magical when they are well-designed, but can be used in incredibly stupid ways. Even well-trained, well-intentioned people
