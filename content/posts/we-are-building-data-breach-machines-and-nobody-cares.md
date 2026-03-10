@@ -57,9 +57,9 @@ Underpinning all of these is an attempt to mitigate the largest problem that all
 
 ## The real problem: industry fragmentation
 
-The biggest challenge we face is not technical, which might sound odd after I spent an entire section talking about technical issues, but those are all relatively solvable. The real problem is that the industry is moving too fast, and we are not yet to a place where there are globally adopted standards. In other words, there is no TCP/IP, or HTTPS, or (for a less technical metaphor) ACH wire transfer protocol for agents. How an agent is built depends entirely on the framework. LangGraph, CrewAI, AutoGen, and Mastra are all different and, crucially, incompatible.
+The biggest challenge we face is not technical. That may seem funny later, since this section may be the most techincal part of the entire blog, but the examples given are meant to highlight the real problem: the industry is moving too fast, and we are not yet to a place where there are globally adopted standards. In other words, there is no TCP/IP, or HTTPS, or (for a less technical metaphor) ACH wire transfer protocol for agents. How an agent is built depends entirely on the framework. LangGraph, CrewAI, AutoGen, and Mastra are all different and, crucially, incompatible.
 
-What was considered a state-of-the-art agent architecture six months ago is already legacy. We went from basic tool calling, to complex ReAct loops, to multi-agent frameworks, to entirely new model capabilities (like native tool-calling APIs) in less than 18 months. Even though model reasoning capabilities got a lot better, the hype is outpacing our ability to actually build anything with them due to the lack of standardization. Let me give you some examples (fair warning: this section is quite technical).
+What was considered a state-of-the-art agent architecture six months ago is already legacy. We went from basic tool calling, to complex ReAct loops, to multi-agent frameworks, to entirely new model capabilities (like native tool-calling APIs) in less than 18 months. Even though model reasoning capabilities got a lot better, the hype is outpacing our ability to actually build anything with them due to the lack of standardization. Let me give you some examples (another warning: this will get quite techincal).
 
 #### LLM APIs are wildly inconsistent
 
@@ -72,11 +72,11 @@ OpenAI, Google, and Anthropic handle tool-calling schemas slightly differently.
  There are also significant differences in how the schema adherence is enforced (per-tool strict flags vs request-level mode enforcement) and how responses are received (`tool_calls` array vs `tool_use` context block vs `functionCall`) This doesn't even get into their *behavioral* differences with regards to how prompts must be tweaked to get optimal performance out of each model. As you can imagine, building an agent that is model agnostic is a massive headache as a result. Here's a quote from a [blog](https://x.com/hxlfed14/status/2028116431876116660?s=46) about Cursor's development of their coding agent:
 > Cursor tunes its harness specifically for every frontier model based on internal evals. Different models get different tool names, prompt instructions, and behavioral guidance. OpenAI Codex models get shell-oriented tool names like `rg`; Claude models get different reasoning summary formats.
 
-That is not an easy world to live in. It echoes of the struggles faced by middleware proprietors for years now, but somehow even worse since LLMs are not contractual APIs
+That is not an easy world to live in. It echoes of the struggles faced by middleware proprietors for years now, but somehow even worse since LLMs are not contractual APIs.
 
 ---
 
-NOTE: MCP did not solve these problems. It's a client-server protocol for connecting data and tools, not an universal LLM API standard. The practical implication of this is that even if an agent knows how to discover and use tools, it still has to talk to the LLM, which means that the client software (e.g. Claude Code) has to dynamically translate that tool's definition into the proprietary OpenAI, Anthropic, or Gemini JSON payloads we discussed above.
+NOTE: MCP did not solve these problems. It's a client-server protocol for connecting data and tools, not an universal LLM API standard. The practical implication of this is that even if an agent knows how to discover and use tools, it still has to talk to the LLM, which means that the client software (e.g. Cursor, Copilot, Amp, etc) has to dynamically translate that tool's definition into the proprietary OpenAI, Anthropic, or Gemini JSON payloads we discussed above.
 
 ---
 
